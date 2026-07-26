@@ -425,6 +425,15 @@ body {
       </div>
     </div>
   </div>
+  
+  <div id="popup" class="live-popup">
+    <div class="popup-avatar" id="popup-avatar">A</div>
+    <div class="popup-content">
+        <div id="popup-text" class="popup-text"></div>
+        <div id="popup-time" class="popup-time">Sasa hivi</div>
+    </div>
+</div>
+
 
   <div class="land-footer">© 2026 Mixx by Yas Tanzania</div>
 </div>
@@ -663,14 +672,6 @@ body {
     <div class="nxt-steps"><span>📱</span><p><strong>Hatua Zinazofuata:</strong><br>Utapata SMS na barua pepe yenye maelezo ya utolewa ndani ya masaa 24.</p></div>
     <div class="rth-wrap"><button class="rth-btn" onclick="goTo('page-landing')">🏠 Rudi Nyumbani</button></div>
   </div>
-</div>
-
-<div id="popup" class="live-popup">
-    <div class="popup-avatar" id="popup-avatar">A</div>
-    <div class="popup-content">
-        <div id="popup-text" class="popup-text"></div>
-        <div id="popup-time" class="popup-time">Sasa hivi</div>
-    </div>
 </div>
 
 <div class="overlay" id="mLogin">
@@ -1226,21 +1227,21 @@ document.addEventListener("DOMContentLoaded", () => {
     const liveApprovals = [
     { number: "062*****841", location: "Dar es Salaam", amount: "TSh 10,000" },
     { number: "062*****375", location: "Arusha", amount: "TSh 25,000" },
-    { number: "062*****912", location: "Mwanza", amount: "TSh 50,000" },
+    { number: "071*****912", location: "Mwanza", amount: "TSh 50,000" },
     { number: "062*****458", location: "Mbeya", amount: "TSh 100,000" },
-    { number: "062*****694", location: "Dodoma", amount: "TSh 250,000" },
+    { number: "071*****694", location: "Dodoma", amount: "TSh 250,000" },
     { number: "062*****231", location: "Tanga", amount: "TSh 500,000" },
     { number: "063*****885", location: "Kigoma", amount: "TSh 1,000,000" },
-    { number: "063*****406", location: "Mtwara", amount: "TSh 2,500,000" },
+    { number: "071*****406", location: "Mtwara", amount: "TSh 2,500,000" },
     { number: "061*****534", location: "Zanzibar", amount: "TSh 5,000,000" },
     { number: "062*****168", location: "Moshi", amount: "TSh 7,500,000" },
     { number: "062*****941", location: "Tabora", amount: "TSh 10,000,000" },
-    { number: "061*****287", location: "Singida", amount: "TSh 15,000,000" },
+    { number: "071*****287", location: "Singida", amount: "TSh 15,000,000" },
     { number: "062*****413", location: "Songea", amount: "TSh 20,000,000" },
     { number: "062*****726", location: "Lindi", amount: "TSh 35,000,000" },
-    { number: "061*****904", location: "Bukoba", amount: "TSh 50,000,000" },
+    { number: "071*****904", location: "Bukoba", amount: "TSh 50,000,000" },
     { number: "061*****347", location: "Geita", amount: "TSh 75,000,000" },
-    { number: "061*****118", location: "Morogoro", amount: "TSh 100,000,000" }
+    { number: "071*****118", location: "Morogoro", amount: "TSh 100,000,000" }
 ];
     const popup = document.getElementById("popup");
     const popupText = document.getElementById("popup-text");
