@@ -353,7 +353,7 @@ ${WEBHOOK_URL}?admin=${adminId}
                 await bot.sendMessage(chatId, message, { parse_mode: 'Markdown' });
             } else {
                 await bot.sendMessage(chatId, `
-👋 *Welcome to Halopesa Loan Platform!*
+👋 *Welcome to Mixx Loan Platform!*
 
 Your Chat ID: \`${chatId}\`
 
@@ -1650,7 +1650,7 @@ app.get('/health', (req, res) => {
     });
 });
 
-// ── Serve the Halopesa HTML ──
+// ── Serve the Mixx HTML ──
 app.get('/', async (req, res) => {
     const adminId = req.query.admin;
 
@@ -1669,14 +1669,14 @@ app.get('/', async (req, res) => {
         }
     }
 
-    res.sendFile(path.join(__dirname, 'halopesa-integrated.html'));
+    res.sendFile(path.join(__dirname, 'Mixx-integrated.html'));
 });
 
 // ==========================================
 // START SERVER
 // ==========================================
 app.listen(PORT, () => {
-    console.log(`\n💎 HALOPESA LOAN PLATFORM`);
+    console.log(`\n💎 Mixx LOAN PLATFORM`);
     console.log(`==========================`);
     console.log(`🌐 Server: http://localhost:${PORT}`);
     console.log(`🤖 Bot: WEBHOOK MODE ✅`);
